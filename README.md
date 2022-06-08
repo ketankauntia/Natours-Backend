@@ -28,28 +28,27 @@ after sucessfull booking, Go to account and check under bookings, the booking wi
 ## add config.env file to the project to run.
 contains :
 
-<!-- NODE_ENV = development
-PORT=3000
-DATABASE_PASSWORD = 
-DATABASE=
+- NODE_ENV = development
+- PORT=3000
+- DATABASE_PASSWORD = 
+- DATABASE=
 
-JWT_SECRET=
-JWT_EXPIRES_IN=90d
-JWT_COOKIE_EXPIRES_IN=90
+- JWT_SECRET=
+- JWT_EXPIRES_IN=90d
+- JWT_COOKIE_EXPIRES_IN=90
 
-EMAIL_USERNAME=
-EMAIL_PASSWORD=
-EMAIL_HOST=
-EMAIL_PORT=
+- EMAIL_USERNAME=
+- EMAIL_PASSWORD=
+- EMAIL_HOST=
+- EMAIL_PORT=
 
-EMAIL_FROM=
+- EMAIL_FROM=
 
-SENDGRID_USERNAME=
-SENDGRID_PASSWORD=
+- SENDGRID_USERNAME=
+- SENDGRID_PASSWORD=
 
-STRIPE_SECRECT_KEY= -->
-
-
+- STRIPE_SECRECT_KEY=
 
 --- x ----
 
+-sendgrid wont work, don't try connecting, use another mailing provider for verification mails.
