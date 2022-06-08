@@ -1,5 +1,5 @@
 # Natours-Backend
-Built a restfull api with CRUD operations using mongoDb and mongoose. Server side rendering with Pug template and authentication added to data stored via encrypting it.
+Built a restfull api with CRUD operations using mongoDb and mongoose. Server side rendering with Pug template and authentication added to data stored via encrypting it and checkout the tours with stripe payments.
 
 - To run, connect to the database cluster
 - Install all node modules using : npm i
